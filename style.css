@@ -1,0 +1,232 @@
+@import url('https://bj-share.info/static/styles/bj-black/style.css');
+
+:root {
+  --bgimage-body:url('https://www.arocweb.com.br/others/bj-share/img/dbz.jpg');
+  --torrent-hover:#121212;
+  --snatched-bgcolor:#00801B !important;
+  --snatched-color:whitesmoke !important;
+  --torrent-free-color:greenyellow !important;
+  --text-alert:grey !important;
+  --color-hover:white !important;
+  --progress-bar:#f2d31b !important;
+}
+/* removendo background original */
+#alerts,#content {
+  background: none!important
+}
+
+@media only screen and (max-width:1366px) {
+  table#torrent_table.torrent_table.cats.no_grouping {
+    width: 70% !important;
+  }
+  #userinfo {
+    min-width: 240px;
+  }
+}
+
+@media only screen and (min-width:1440px) {
+  table#torrent_table.torrent_table.cats.no_grouping {
+    width: 65% !important;
+  }
+}
+
+@media only screen and (min-width:1700px) {
+  table#torrent_table.torrent_table.cats.no_grouping {
+    width: 55.5% !important;
+  }
+}
+
+/* deixando o background color um pouco transparente para aparecer a foto de fundo  */
+#content,
+#alerts {
+  background: -moz-linear-gradient(top, rgba(48, 48, 48, 0.55) 0%, rgba(48, 48, 48, 0.55) 100%);
+  background: -webkit-linear-gradient(top, rgba(48, 48, 48, 0.55) 0%, rgba(48, 48, 48, 0.55) 100%);
+  background: linear-gradient(to bottom, rgba(48, 48, 48, 0.55) 0%, rgba(48, 48, 48, 0.55) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6303030', endColorstr='#e6303030', GradientType=0);
+}
+#alerts{
+  margin-top: 90px!important;
+}
+
+body {
+  background: var(--bgimage-body) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -5px;
+}
+
+div#wrapper div#header {
+  /* background: url('http://sf.co.ua/16/01/wallpaper-4ed4.jpg') repeat-x bottom center; */
+  min-width: 100%;
+  min-height: 100%;
+  
+  background: none !important;
+
+  /* background-color: transparent!important; */
+  background-color:rgba(0, 0, 0, 0)!important;
+  
+  /* margin-top: -12px; */
+  /* opacity: .96; */
+}
+#logo {
+  background: url('https://i.bj-share.info/e8a62825bdabab8936b842e38b39c630.gif') no-repeat top center;
+  /* opacity: .96; */
+  opacity: .60;
+}
+#menu {
+  top: 267px!important;
+}
+
+
+.torrent:hover,
+.torrent_row:hover{
+  background-color: var(--torrent-hover);
+  box-shadow: px 0px 10px var(--torrent-free-color) !important;
+  color: var(--color-hover);font-size: 1em;
+}
+
+#noteAlertMsg {
+  background: none !important;
+  color: wheat;
+  font-weight: bold;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+td, th {
+    position: relative;
+}
+/*Removendo snatched em lista de snatched pq tenho pouco espaço lá dentro e já é óbvio que lá são snatched*/
+tr.torrent.torrent_row.snatched_torrent.snatched_group td.big_info div.group_info.clear strong.torrent_label.tooltip.snatched{
+  background: none !important;
+  position:relative;
+  /*font-size: 0;*/
+}
+
+
+
+tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched,.tl_snatched,.snatched {
+  width: 100%;
+  background-color: var(--snatched-bgcolor);
+  /*padding-left: 44%;
+  padding-right: 43%;*/
+  color:var(--snatched-color)!important;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+.seeding{
+
+}
+
+
+div.torrent_info strong.torrent_label.tooltip.tl_notice,.torrent_label,tl_notice {
+  
+  color: var(--torrent-free-color)!important;
+  /* text-shadow: 0px 0px 1px var(--torrent-free-color) !important; */
+}
+@media only screen and (max-width:1366px) {
+  #userinfo {
+    min-width: 240px!important;
+  }
+}
+#userinfo {
+  width: 300px;
+  padding: 3px 0px;
+  z-index: 99999;
+  min-width: 270px;
+  height: 60px!important;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+html body#index div#wrapper div#content div.thin div.main_column div#news16.box.news_post div#newsbody16.pad div strong span,
+html body#index div#wrapper div#header div#alerts div.alertbar span,
+div.alertbar span {
+  color: var(--text-alert)!important;
+}
+.progress-bg{background: none!important}
+.progress-bar{
+  box-shadow: 0px 0px 11px var(--progress-bar) !important;
+  background: var(--progress-bar) !important;
+}
+tbody tr.torrent.row td font font{
+  /* color: var(--torrent-free-color)!important;
+  text-shadow: 0px 0px 1px var(--torrent-free-color) !important;  */
+}
+
+#noteAlertMsg {
+  visibility: hidden;
+}
+/* #noteAlertMsg:after {
+  content:'agora essa porra vai aparecer no lugar'; 
+  visibility: visible;
+  display: block;
+  margin-top: -27px !important; 
+  line-height: initial; New content takes up original line height
+  colocando o texto no lugar do anterior
+*/
+
+div#wrapper div#header div#alerts div.alertbar:after {
+
+  content:"Você está vendo esse layout maravilhoso graças ao @klebimsc - It's a long way to the top If you wanna rock 'n' roll"; 
+  visibility: visible;
+  display: block;
+  margin-top: 14px;
+}
+.thin {
+  color: white;
+  /* font-weight: bold; */
+  margin-bottom: 15px;
+}
+
+html body#torrents div#wrapper div#content div.thin div.header div.linkbox,
+html body#torrents div#wrapper div#content div.thin div.header div.linkbox a,
+html body#torrents div#wrapper div#content div.thin div.header center small a,
+html body#torrents div#wrapper div#content div.thin div.header center small,
+html body#torrents div#noteAlertMsg, div.linkbox a{
+  color: white!important;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px black !important; 
+}
+.stat{
+  color: white!important;
+  text-shadow: 0px 0px 1px white !important;  
+}
+
+html body#torrents div#wrapper div#content div.thin div.main_column table#torrent_details.torrent_table.details.snatched{
+  padding-left: 0!important;
+  padding-right: 0!important;
+  position: relative!important;
+  top: 0!important;
+  width: 100%;
+  background-color: var(--snatched-bgcolor);
+}
+.edition_0.group_torrent.snatched_torrent td a strong.torrent_label.tooltip.snatched{
+    position: relative;
+}
+tr.edition_0.group_torrent.snatched_torrent{
+  background-color: var(--snatched-bgcolor);
+}
+
+/* apostas */
+input[type=radio].toggle+label {
+  color: white!important;
+}
+
+/* Ratios */
+.r50 {
+  color: #fff44f!important;
+}
+
+/* botões */
+
+
+#disclaimer_container {
+  text-shadow: 2px 2px 2px #000;
+}

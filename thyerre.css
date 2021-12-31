@@ -1,0 +1,117 @@
+@import url('https://bj-share.info/static/styles/bj-black/style.css');
+
+:root {
+  --bgimage-body:url('https://www.arocweb.com.br/others/bj-share/img/dbz.jpg');
+  --torrent-hover:#121212;
+  --snatched-bgcolor:#00801B !important;
+  --snatched-color:whitesmoke !important;
+  --torrent-free-color:greenyellow !important;
+  --text-alert:grey !important;
+}
+
+
+@media only screen and (max-width:1366px) {
+  table#torrent_table.torrent_table.cats.no_grouping {
+    width: 70% !important;
+  }
+  #userinfo {
+    min-width: 240px;
+  }
+}
+
+@media only screen and (min-width:1440px) {
+  table#torrent_table.torrent_table.cats.no_grouping {
+    width: 65% !important;
+  }
+}
+
+@media only screen and (min-width:1700px) {
+  table#torrent_table.torrent_table.cats.no_grouping {
+    width: 55.5% !important;
+  }
+}
+
+/* deixando o background color um pouco transparente para aparecer a foto de fundo  */
+#content,
+#alerts {
+    background: -moz-linear-gradient(top, rgba(48, 48, 48, 0.7) 0%, rgba(48, 48, 48, 0.7) 100%);
+    background: -webkit-linear-gradient(top, rgba(48, 48, 48, 1) 0%, rgba(48, 48, 48, 0.7) 100%);
+    background: linear-gradient(to bottom, rgba(48, 48, 48, 0.7) 0%, rgba(48, 48, 48, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6303030', endColorstr='#e6303030', GradientType=0);
+}
+#alerts{
+  margin-top: 90px!important;
+}
+
+body {
+  background: var(--bgimage-body) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+div#wrapper div#header {
+  /* background: url('http://sf.co.ua/16/01/wallpaper-4ed4.jpg') repeat-x bottom center; */
+  /* background: url('https://images2.alphacoders.com/444/444024.jpg') repeat-x bottom center; */
+  background: none !important;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.torrent:hover {
+  background-color: var(--torrent-hover);
+}
+
+#noteAlertMsg {
+  background: none !important;
+  color: wheat;
+  font-weight: bold;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched {
+  width: 100%;
+  background-color: var(--snatched-bgcolor);
+  padding-left: 44%;
+  padding-right: 43%;
+  color:var(--snatched-color)!important;
+}
+
+div.torrent_info strong.torrent_label.tooltip.tl_notice {
+  
+  color: var(--torrent-free-color)!important;
+}
+@media only screen and (max-width:1366px) {
+  #userinfo {
+    min-width: 240px!important;
+  }
+}
+#userinfo {
+  width: 50px;
+  padding: 3px 0px;
+  z-index: 99999;
+  min-width: 270px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+html body#index div#wrapper div#content div.thin div.main_column div#news16.box.news_post div#newsbody16.pad div strong span,
+html body#index div#wrapper div#header div#alerts div.alertbar span,
+div.alertbar span {
+  color: var(--text-alert)!important;
+}
+
+#logo {
+    margin: 0px !important;
+    background: url('images/logo_d.png') no-repeat center center;
+ }
+ 
+ #userinfo{
+     margin-right: 10px;
+     width: 360px;
+ }

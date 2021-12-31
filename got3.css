@@ -1,0 +1,12 @@
+@import url('https://www.arocweb.com.br/others/bj-share/style.css');
+:root {
+    --bgimage-body:url('https://www.arocweb.com.br/others/bj-share/img/got3.jpg');
+}
+body {
+    background: var(--bgimage-body) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+  }
