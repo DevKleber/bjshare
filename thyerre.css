@@ -1,7 +1,7 @@
 @import url('https://bj-share.info/static/styles/bj-black/style.css');
 
 :root {
-  --bgimage-body:url('https://www.arocweb.com.br/others/bj-share/img/dbz.jpg');
+  --bgimage-body:url('https://bjshare.vercel.app/img/dbz.jpg');
   --torrent-hover:#121212;
   --snatched-bgcolor:#00801B !important;
   --snatched-color:whitesmoke !important;

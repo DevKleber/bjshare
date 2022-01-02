@@ -1,6 +1,6 @@
-@import url('https://www.arocweb.com.br/others/bj-share/style.css');
+@import url('https://bjshare.vercel.app/style.css');
 :root {
-    --bgimage-body:url('https://www.arocweb.com.br/others/bj-share/img/himym1.jpeg');
+    --bgimage-body:url('https://bjshare.vercel.app/img/himym1.jpeg');
 }
 body {
     background: var(--bgimage-body) no-repeat center center fixed;

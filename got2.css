@@ -1,7 +1,7 @@
-@import url('https://www.arocweb.com.br/others/bj-share/style.css');
+@import url('https://bjshare.vercel.app/style.css');
 
 :root {
-    --bgimage-body: url('https://www.arocweb.com.br/others/bj-share/img/got2.png');
+    --bgimage-body: url('https://bjshare.vercel.app/img/got2.png');
 }
 
 body {
