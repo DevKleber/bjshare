@@ -253,7 +253,7 @@ input[type='checkbox']:checked:after {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
 }
-.head,.colhead {
+.head,.colhead, .colhead_dark {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
   padding: 15px;
