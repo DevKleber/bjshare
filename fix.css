@@ -9,7 +9,7 @@ body {
     -o-background-size: cover;
     background-size: cover; */
     background: none!important;
-    background-color: #202020;
+    background-color: #202020!important;
 
     position: absolute;
     top: 0;
