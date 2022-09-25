@@ -57,8 +57,7 @@ body {
     background-color: var(--bgimage-Current)!important;
 }
 #userinfo {
-    background-color: var(--bgimage-Current)!important;
-    opacity: .5;
+    background-color: var(--bgimage-Background)!important;
 }
 
 
