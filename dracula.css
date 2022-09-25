@@ -110,6 +110,7 @@ table {
 
 .chatForm input[type="text"] {
   background-color: var(--bgimage-Background)!important;
+  color: var(--bgimage-Foreground);
 }
 
 [id*="overlay"],
