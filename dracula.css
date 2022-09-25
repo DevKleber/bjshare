@@ -246,7 +246,7 @@ div.torrent_info strong.torrent_label.tooltip.tl_notice, .torrent_label, tl_noti
 
 tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched, .tl_snatched, .snatched {
     background-color: var(--bgimage-Green);
-    color: var(--bgimage-Foreground)!important;
+    color: var(--bg-fundo-escuro)!important;
 }
 
 .dropdown-menu {
