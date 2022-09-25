@@ -59,7 +59,8 @@ body {
 }
 
 .box {
-    box-shadow: 0 1px 1px var(--bgimage-Current)!important;
+    /* box-shadow: 0 1px 1px var(--bgimage-Current)!important; */
+    box-shadow: none!important;
 }
 
 #userinfo {
@@ -69,6 +70,8 @@ body {
 .head {
     background: none!important;
     background-color: var(--bg-fundo-escuro)!important;
+    padding: 15px;
+    box-shadow: none!important;
 }
 
 
