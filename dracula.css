@@ -108,6 +108,10 @@ table {
   background-color: rgba(40, 42, 54, 1) !important;
 }
 
+.chatForm [type*="text"] {
+  background-color: var(--bgimage-Background)!important;
+}
+
 [id*="overlay"],
 [id*="lightbox"],
 blockquote {
