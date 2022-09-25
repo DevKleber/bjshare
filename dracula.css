@@ -153,6 +153,9 @@ a.active *,
   font-weight: bold !important;
   color: var(--bgimage-Cyan) !important;
 }
+form textarea, form input {
+  width: 99%!important;
+}
 
 /* #logo { margin-left: 0px !important; } */
 h1,
