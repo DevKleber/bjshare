@@ -59,6 +59,10 @@ body {
 #userinfo {
     background-color: var(--bgimage-Background)!important;
 }
+.head {
+    background: none!important;
+    background-color: var(--bgimage-Current)!important;
+}
 
 
 html,
