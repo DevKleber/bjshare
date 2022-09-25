@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
-    --bgimage-body:url('');
+    /* --bgimage-body:url(''); */
+    --bg-fundo-escuro: #14141B;
     --bgimage-Background: #282a36;
     --bgimage-Current: #44475a;
     --bgimage-Selection: #44475a;
@@ -63,11 +64,11 @@ body {
 
 #userinfo {
     background: none!important;
-    background-color: var(--bgimage-Background)!important;
+    background-color: var(--bg-fundo-escuro)!important;
 }
 .head {
     background: none!important;
-    background-color: var(--bgimage-Current)!important;
+    background-color: var(--bg-fundo-escuro)!important;
 }
 
 
