@@ -240,8 +240,8 @@ input[type='checkbox']:checked:after {
 }
 
 .dropdown-menu {
-    background-color: var(--bg-fundo-escuro2);
-    color: var(--bgimage-Foreground);
+    background-color: var(--bg-fundo-escuro2)!important;
+    color: var(--bgimage-Foreground)!important;
 }
 
 #userinfo {
