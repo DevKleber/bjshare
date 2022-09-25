@@ -1,6 +1,18 @@
 @import url('https://bjshare.vercel.app/style.css');
 :root {
     --bgimage-body:url('');
+    --bgimage-Background: #282a36;
+    --bgimage-Current: #44475a;
+    --bgimage-Selection: #44475a;
+    --bgimage-Foreground: #f8f8f2;
+    --bgimage-Comment: #6272a4;
+    --bgimage-Cyan: #8be9fd;
+    --bgimage-Green: #50fa7b;
+    --bgimage-Orange: #ffb86c;
+    --bgimage-Pink: #ff79c6;
+    --bgimage-Purple: #bd93f9;
+    --bgimage-Red: #ff5555;
+    --bgimage-Yellow: #f1fa8c;
 }
 body {
     /* background: var(--bgimage-body) !important; */
@@ -9,7 +21,7 @@ body {
     -o-background-size: cover;
     background-size: cover; */
     background: none!important;
-    background-color: #202020!important;
+    background-color: var(--bgimage-Background)!important;
 
     position: absolute;
     top: 0;
