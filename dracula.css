@@ -249,7 +249,7 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
     color: var(--bg-fundo-escuro)!important;
 }
 
-.numbering tbody tr.torrent td:nth-child(1) {
+#top10 #wrapper #content .thin .numbering tbody tr.torrent td:nth-child(1) {
     font-size: 2rem!important;
     display: flex!important;
     justify-content: center!important;
