@@ -257,6 +257,14 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
     margin-top: 28%!important;
 }
 
+#content > div > div:nth-child(13) {
+    text-align: center!important;
+    padding: 0px!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+}
+
 .dropdown-menu {
     background-color: var(--bg-fundo-escuro2)!important;
     color: var(--bgimage-Foreground)!important;
