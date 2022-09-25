@@ -74,6 +74,9 @@ body {
     box-shadow: none!important;
 }
 
+.tags {
+    color: var(--bgimage-Background);
+}
 
 html,
 body {
