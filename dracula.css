@@ -52,7 +52,7 @@ body {
     color: var(--bgimage-Pink);
   }
 
-#menu {
+#menu, #userinfo {
     background: none!important;
     background-color: var(--bgimage-Current)!important;
 }
