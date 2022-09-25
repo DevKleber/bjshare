@@ -185,7 +185,7 @@ link {
   border: none !important;
 }
 
-form tr {
+form tr, tr.torrent  {
     background-color: var(--bg-fundo-escuro2)!important;
 }
 
