@@ -56,6 +56,11 @@ body {
     background: none!important;
     background-color: var(--bgimage-Current)!important;
 }
+
+.box {
+    box-shadow: 0 1px 1px var(--bgimage-Current)!important;
+}
+
 #userinfo {
     background: none!important;
     background-color: var(--bgimage-Background)!important;
