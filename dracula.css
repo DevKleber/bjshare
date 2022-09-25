@@ -239,6 +239,11 @@ input[type='checkbox']:checked:after {
     border: 1px solid white;
 }
 
+.dropdown-menu {
+    background-color: var(--bg-fundo-escuro2);
+    color: var(--bgimage-Foreground);
+}
+
 #userinfo {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
