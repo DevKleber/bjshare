@@ -1,5 +1,10 @@
 @import url('https://bjshare.vercel.app/style.css');
+
+@import url('https://assets.gumroad.com/packs/css/design-2bce4e58.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('https://draculatheme.com/_next/static/css/7426dfa9fb0afa73.css');
 @import url('https://draculatheme.com/_next/static/css/942e641249d2b62c.css');
+
 :root {
     --bgimage-body:url('');
     --bgimage-Background: #282a36;
