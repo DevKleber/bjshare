@@ -67,7 +67,7 @@ body {
 	background-color: var(--bgimage-Background) !important;
 }
 
-body * {
+body {
 	color: rgba(248, 248, 242, 1) !important;
 	background-color: var(--bgimage-Background) !important;
 }
