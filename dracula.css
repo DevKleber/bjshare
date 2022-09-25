@@ -90,12 +90,12 @@ div[onclick]:hover,
 [role="menuitem"]:hover *,
 .link:hover,
 .link:hover * {
-	color: var(--bgimage-Pink) !important;
+	color: var(--bgimage-Purple) !important;
 }
 
 a:visited,
 a:visited * {
-	color: var(--bgimage-Purple) !important;
+	color: var(--bgimage-Pink) !important;
 }
 
 h1,
