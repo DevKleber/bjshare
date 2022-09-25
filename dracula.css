@@ -112,6 +112,7 @@ table {
 [id*="lightbox"],
 blockquote {
   background-color: rgba(68, 71, 90, 1) !important;
+  color: var(--bgimage-Foreground)!important;
 }
 
 pre,
