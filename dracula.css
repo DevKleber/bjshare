@@ -244,6 +244,11 @@ input[type='checkbox']:checked:after {
     color: var(--bgimage-Foreground)!important;
 }
 
+li a:hover {
+    background-color: var(--bgimage-Green)!important;
+    color: var(--bgimage-Foreground)!important;
+}
+
 #userinfo {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
