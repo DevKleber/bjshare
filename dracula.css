@@ -108,7 +108,7 @@ table {
   background-color: rgba(40, 42, 54, 1) !important;
 }
 
-.chatForm input[type="text"] {
+#chatForm input[type="text"] {
   background-color: var(--bgimage-Background)!important;
   color: var(--bgimage-Foreground);
 }
