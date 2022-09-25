@@ -249,6 +249,10 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
     color: var(--bg-fundo-escuro)!important;
 }
 
+.numbering tbody tr.torrent td:nth-child(1) {
+    font-size: 1rem!important;
+}
+
 .dropdown-menu {
     background-color: var(--bg-fundo-escuro2)!important;
     color: var(--bgimage-Foreground)!important;
