@@ -176,5 +176,5 @@ a.active *,
 }
 
 .tags, .tags a{ 
-    color: var(--bgimage-Background)!important;
+    color: #818181!important;
 }
