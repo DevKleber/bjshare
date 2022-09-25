@@ -72,10 +72,9 @@ body * {
 	background-color: var(--bgimage-Background) !important;
 }
 
-a,
-a * {
+a {
 	color: var(--bgimage-Green) !important;
-	background-color: transparent !important;
+	/* background-color: transparent !important; */
 }
 
 a:hover,
