@@ -1,65 +1,70 @@
-@import url('https://bjshare.vercel.app/style.css');
+@import url("https://bjshare.vercel.app/style.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-    /* --bgimage-body:url(''); */
-    --bg-fundo-escuro: #14141B;
-    --bgimage-Background: #282a36;
-    --bgimage-Current: #44475a;
-    --bgimage-Selection: #44475a;
-    --bgimage-Foreground: #f8f8f2;
-    --bgimage-Comment: #6272a4;
-    --bgimage-Cyan: #8be9fd;
-    --bgimage-Green: #50fa7b;
-    --bgimage-Orange: #ffb86c;
-    --bgimage-Pink: #ff79c6;
-    --bgimage-Purple: #bd93f9;
-    --bgimage-Red: #ff5555;
-    --bgimage-Yellow: #f1fa8c;
+  /* --bgimage-body:url(''); */
+  --bg-fundo-escuro: #14141b;
+  --bgimage-Background: #282a36;
+  --bgimage-Current: #44475a;
+  --bgimage-Selection: #44475a;
+  --bgimage-Foreground: #f8f8f2;
+  --bgimage-Comment: #6272a4;
+  --bgimage-Cyan: #8be9fd;
+  --bgimage-Green: #50fa7b;
+  --bgimage-Orange: #ffb86c;
+  --bgimage-Pink: #ff79c6;
+  --bgimage-Purple: #bd93f9;
+  --bgimage-Red: #ff5555;
+  --bgimage-Yellow: #f1fa8c;
 
-    
-    --purple-cyan: linear-gradient(var(--gradientDegree),var(--purple) 0%,var(--cyan) 100%);
-    --yellow-pink: linear-gradient(var(--gradientDegree),var(--yellow) 0%,var(--pink) 100%);
-    --cyan-green: linear-gradient(var(--gradientDegree),var(--cyan) 0%,var(--green) 100%);
-    --pink-purple: linear-gradient(var(--gradientDegree),var(--pink) 0%,var(--purple) 100%);
+  --purple-cyan: linear-gradient(var(--gradientDegree), var(--purple) 0%, var(--cyan) 100%);
+  --yellow-pink: linear-gradient(var(--gradientDegree), var(--yellow) 0%, var(--pink) 100%);
+  --cyan-green: linear-gradient(var(--gradientDegree), var(--cyan) 0%, var(--green) 100%);
+  --pink-purple: linear-gradient(var(--gradientDegree), var(--pink) 0%, var(--purple) 100%);
 }
 body {
-    font-family: 'Poppins', sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 
-    /* background: var(--bgimage-body) !important; */
-    /* -webkit-background-size: cover;
+  /* background: var(--bgimage-body) !important; */
+  /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; */
-    background: none!important;
-    background-color: var(--bgimage-Background)!important;
+  background: none !important;
+  background-color: var(--bgimage-Background) !important;
 
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-repeat: no-repeat!important;
-    background-attachment: fixed!important;
-    background-size: cover!important;
-  
-  }
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
 
 html,
 body {
-	background-image: none !important;
-	background-color: var(--bgimage-Background) !important;
+  background-image: none !important;
+  background-color: var(--bgimage-Background) !important;
 }
 
 body {
-	color: rgba(248, 248, 242, 1) !important;
-	background-color: var(--bgimage-Background) !important;
+  color: rgba(248, 248, 242, 1) !important;
+  background-color: var(--bgimage-Background) !important;
 }
 
 a {
-	color: var(--bgimage-Green) !important;
-	/* background-color: transparent !important; */
+  color: var(--bgimage-Green) !important;
+  /* background-color: transparent !important; */
 }
 
 a:hover,
@@ -75,12 +80,12 @@ div[onclick]:hover,
 [role="menuitem"]:hover *,
 .link:hover,
 .link:hover * {
-	color: var(--bgimage-Purple) !important;
+  color: var(--bgimage-Purple) !important;
 }
 
 a:visited,
 a:visited * {
-	color: var(--bgimage-Pink) !important;
+  color: var(--bgimage-Pink) !important;
 }
 
 h1,
@@ -95,22 +100,22 @@ strong,
 [id*="header"],
 [class*="header"],
 [class*="header"] td {
-	color: rgba(255, 184, 108, 1) !important;
+  color: rgba(255, 184, 108, 1) !important;
 }
 
 table {
-	background-color: rgba(40, 42, 54, 1) !important;
+  background-color: rgba(40, 42, 54, 1) !important;
 }
 
 [id*="overlay"],
 [id*="lightbox"],
 blockquote {
-	background-color: rgba(68, 71, 90, 1) !important;
+  background-color: rgba(68, 71, 90, 1) !important;
 }
 
 pre,
 dl {
-	background-color: rgba(68, 71, 90, 1) !important;
+  background-color: rgba(68, 71, 90, 1) !important;
 }
 
 input,
@@ -122,13 +127,13 @@ a.submit,
 a.BigButton,
 a.TabLink,
 .install[onclick] {
-	background: rgba(68, 71, 90, 1) !important;
-    color: var(--bgimage-Foreground)!important;
+  background: rgba(68, 71, 90, 1) !important;
+  color: var(--bgimage-Foreground) !important;
 }
 
 textarea {
-    background: rgba(68, 71, 90, 1) !important;
-    color: var(--bgimage-Foreground)!important;
+  background: rgba(68, 71, 90, 1) !important;
+  color: var(--bgimage-Foreground) !important;
 }
 
 a.highlight,
@@ -138,49 +143,49 @@ a.active *,
 .selected,
 .selected *,
 [href="#"] {
-	font-weight: bold !important;
-	color: var(--bgimage-Cyan) !important;
+  font-weight: bold !important;
+  color: var(--bgimage-Cyan) !important;
 }
 
+/* #logo { margin-left: 0px !important; } */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--bgimage-Green);
+}
+link {
+  color: var(--bgimage-Pink);
+}
 
-
-
-
-
-
- /* #logo { margin-left: 0px !important; } */  
- h1, h2, h3, h4, h5 {
-    color: var(--bgimage-Green);
-  }
-  link {
-    color: var(--bgimage-Pink);
-  }
-
-#menu, .box{
-    background: none!important;
-    background-color: var(--bgimage-Current)!important;
+#menu,
+.box {
+  background: none !important;
+  background-color: var(--bgimage-Current) !important;
 }
 
 .box {
-    /* box-shadow: 0 1px 1px var(--bgimage-Current)!important; */
-    box-shadow: none!important;
+  /* box-shadow: 0 1px 1px var(--bgimage-Current)!important; */
+  box-shadow: none !important;
 }
 
 #userinfo {
-    background: none!important;
-    background-color: var(--bg-fundo-escuro)!important;
+  background: none !important;
+  background-color: var(--bg-fundo-escuro) !important;
 }
 .head {
-    background: none!important;
-    background-color: var(--bg-fundo-escuro)!important;
-    padding: 15px;
-    box-shadow: none!important;
+  background: none !important;
+  background-color: var(--bg-fundo-escuro) !important;
+  padding: 15px;
+  box-shadow: none !important;
 }
 
-.tags, .tags a{ 
-    color: #818181!important;
+.tags,
+.tags a {
+  color: #818181 !important;
 }
 
 .torrent td span {
-    color: var(--bgimage-Pink)!important;
+  color: var(--bgimage-Pink) !important;
 }
