@@ -225,7 +225,7 @@ input[type='checkbox']:after {
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 input[type='checkbox']:checked:after {
@@ -236,7 +236,7 @@ input[type='checkbox']:checked:after {
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 #userinfo {
