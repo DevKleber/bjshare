@@ -57,6 +57,7 @@ body {
     background-color: var(--bgimage-Current)!important;
 }
 #userinfo {
+    background: none!important;
     background-color: var(--bgimage-Background)!important;
 }
 .head {
