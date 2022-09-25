@@ -167,10 +167,10 @@ link {
 }
 
 #searchbars {
-  top: 227px !important;
+    top: 227px!important;
 }
 #menu {
-  border-bottom: 1px solid var(--bgimage-Current) !important;
+    border-bottom: 1px solid var(--bgimage-Current) !important;
 }
 
 #menu,
@@ -185,41 +185,47 @@ link {
   border: none !important;
 }
 
-form tr,
-tr.torrent {
-  background-color: var(--bg-fundo-escuro2) !important;
+form tr, tr.torrent  {
+    background-color: var(--bg-fundo-escuro2)!important;
 }
 
 tr {
-  border: 1px solid var(--bgimage-Background) !important;
+    border: 1px solid var(--bgimage-Background)!important;
 }
 
-input[type="radio"]:after {
-  background-color: var(--bgimage-Foreground);
-  border: 2px solid white;
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--bgimage-Foreground);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
 }
 
-input[type="radio"]:checked:after {
-  background-color: var(--bgimage-Pink);
-  border: 2px solid white;
-}
-
-input[type="checkbox"]:after {
-  background-color: var(--bgimage-Foreground);
-  border: 2px solid white;
-}
-
-input[type="checkbox"]:checked:after {
-  background-color: var(--bgimage-Pink);
-  border: 2px solid white;
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--bgimage-Pink);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
 }
 
 #userinfo {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
 }
-.head,
-.colhead {
+.head,.colhead {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
   padding: 15px;
