@@ -220,7 +220,6 @@ input[type='radio']:checked:after {
 input[type='checkbox']:after {
     width: 10px;
     height: 10px;
-    border-radius: 10px;
     position: relative;
     background-color: var(--bgimage-Foreground);
     content: '';
@@ -232,7 +231,6 @@ input[type='checkbox']:after {
 input[type='checkbox']:checked:after {
     width: 10px;
     height: 10px;
-    border-radius: 10px;
     position: relative;
     background-color: var(--bgimage-Pink);
     content: '';
