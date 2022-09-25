@@ -175,6 +175,6 @@ a.active *,
     box-shadow: none!important;
 }
 
-.tags {
+.tags, .tags a{ 
     color: var(--bgimage-Background)!important;
 }
