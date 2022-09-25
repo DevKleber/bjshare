@@ -5,6 +5,7 @@
 :root {
   /* --bgimage-body:url(''); */
   --bg-fundo-escuro: #14141b;
+  --bg-fundo-escuro2: #21222c;
   --bgimage-Background: #282a36;
   --bgimage-Current: #44475a;
   --bgimage-Selection: #44475a;
@@ -185,7 +186,7 @@ link {
 }
 
 form tr {
-    background-color: var(--bg-fundo-escuro)!important;
+    background-color: var(--bg-fundo-escuro2)!important;
 }
 
 #userinfo {
