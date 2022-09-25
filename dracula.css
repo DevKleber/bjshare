@@ -178,3 +178,7 @@ a.active *,
 .tags, .tags a{ 
     color: #818181!important;
 }
+
+.torrent td span {
+    color: var(--bgimage-Pink)!important;
+}
