@@ -129,11 +129,17 @@ a.TabLink,
 .install[onclick] {
   background: rgba(68, 71, 90, 1) !important;
   color: var(--bgimage-Foreground) !important;
+  padding: 8px 5px !important;
+  border: none !important;
+  border-radius: 5px;
 }
 
 textarea {
   background: rgba(68, 71, 90, 1) !important;
   color: var(--bgimage-Foreground) !important;
+  padding: 8px 5px !important;
+  border: none !important;
+  border-radius: 5px;
 }
 
 a.highlight,
