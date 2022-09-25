@@ -193,7 +193,7 @@ form tr, tr.torrent  {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
 }
-.head {
+.head,.colhead {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
   padding: 15px;
