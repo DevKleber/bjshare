@@ -168,6 +168,9 @@ link {
 #searchbars {
     top: 227px!important;
 }
+#menu {
+    border-bottom: 1px solid var(--bgimage-Current) !important;
+}
 
 #menu,
 .box {
