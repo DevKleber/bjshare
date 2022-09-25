@@ -123,10 +123,12 @@ a.BigButton,
 a.TabLink,
 .install[onclick] {
 	background: rgba(68, 71, 90, 1) !important;
+    color: var(--bgimage-Foreground)!important;
 }
 
 textarea {
-	background: rgba(68, 71, 90, 1) !important;
+    background: rgba(68, 71, 90, 1) !important;
+    color: var(--bgimage-Foreground)!important;
 }
 
 a.highlight,
