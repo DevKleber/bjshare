@@ -3,10 +3,20 @@
     --bgimage-body:url('https://bjshare.vercel.app/img/bb5.jpg');
 }
 body {
-    background: var(--bgimage-body) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    background: var(--bgimage-body) !important;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+    background-size: cover!important;
   
   }
+  /* #logo { margin-left: 0px !important; } */
