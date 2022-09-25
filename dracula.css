@@ -250,7 +250,11 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
 }
 
 .numbering tbody tr.torrent td:nth-child(1) {
-    font-size: 1rem!important;
+    font-size: 2rem!important!important;
+    display: flex!important;
+    justify-content: center!important;
+    border: none!important;
+    margin-top: 28%!important;
 }
 
 .dropdown-menu {
