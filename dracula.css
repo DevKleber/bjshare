@@ -176,7 +176,7 @@ link {
 }
 
 .snatched {
-
+  
 }
 
 input[type="submit"] {
@@ -295,8 +295,9 @@ tl_notice {
 }
 
 tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched,
-.tl_snatched {
-  background-color: var(--bgimage-Green);
+.tl_snatched,
+.snatched {
+  background-color: var(--bgimage-Green)!important;
   color: var(--bg-fundo-escuro) !important;
 }
 
