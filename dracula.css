@@ -370,3 +370,10 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
 .torrent td span {
   color: var(--bgimage-Pink) !important;
 }
+
+
+.show_torrents {
+  width: 28px;
+  height: 28px;
+  background: url(icons/colapse.png) no-repeat center center!important;
+}
