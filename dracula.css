@@ -390,3 +390,6 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
   filter: brightness(0.8);
 }
 
+.groupbanner {
+  border-radius: 8px!important;
+}
