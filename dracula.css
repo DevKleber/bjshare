@@ -109,7 +109,7 @@ table {
 }
 
 #chatForm input[type="text"] {
-  background-color: var(--bgimage-Background)!important;
+  background-color: var(--bgimage-Background) !important;
   color: var(--bgimage-Foreground);
 }
 
@@ -117,7 +117,7 @@ table {
 [id*="lightbox"],
 blockquote {
   background-color: rgba(68, 71, 90, 1) !important;
-  color: var(--bgimage-Foreground)!important;
+  color: var(--bgimage-Foreground) !important;
 }
 
 pre,
@@ -160,7 +160,7 @@ a.active *,
   color: var(--bgimage-Cyan) !important;
 }
 form textarea {
-  width: 99%!important;
+  width: 99% !important;
 }
 
 /* #logo { margin-left: 0px !important; } */
@@ -175,11 +175,27 @@ link {
   color: var(--bgimage-Pink);
 }
 
+input[type="text"] {
+  background: var(--bgimage-Green) !important;
+  transition: filter 0.2s;
+  border-radius: 4px;
+  text-align: center;
+  color: #000 !important;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px 18px;
+  border: 0;
+}
+
+element.style {
+  filter: brightness(0.9);
+}
+
 #searchbars {
-    top: 227px!important;
+  top: 227px !important;
 }
 #menu {
-    border-bottom: 1px solid var(--bgimage-Current) !important;
+  border-bottom: 1px solid var(--bgimage-Current) !important;
 }
 
 #menu,
@@ -194,105 +210,113 @@ link {
   border: none !important;
 }
 
-form tr, tr.torrent, tr  {
-    background-color: var(--bg-fundo-escuro2)!important;
+form tr,
+tr.torrent,
+tr {
+  background-color: var(--bg-fundo-escuro2) !important;
 }
 
 tr {
-    border: 1px solid var(--bgimage-Background)!important;
+  border: 1px solid var(--bgimage-Background) !important;
 }
 
 .number_column {
-  color: var(--bgimage-Foreground)!important;
+  color: var(--bgimage-Foreground) !important;
 }
 
-input[type='radio']:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    position: relative;
-    background-color: var(--bgimage-Foreground);
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
+input[type="radio"]:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: var(--bgimage-Foreground);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
 }
 
-input[type='radio']:checked:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    position: relative;
-    background-color: var(--bgimage-Pink);
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
+input[type="radio"]:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: var(--bgimage-Pink);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
 }
 
-input[type='checkbox']:after {
-    width: 10px;
-    height: 10px;
-    position: relative;
-    background-color: var(--bgimage-Foreground);
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 1px solid white;
+input[type="checkbox"]:after {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: var(--bgimage-Foreground);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid white;
 }
 
-input[type='checkbox']:checked:after {
-    width: 10px;
-    height: 10px;
-    position: relative;
-    background-color: var(--bgimage-Pink);
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 1px solid white;
+input[type="checkbox"]:checked:after {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: var(--bgimage-Pink);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid white;
 }
 
-div.torrent_info strong.torrent_label.tooltip.tl_notice, .torrent_label, tl_notice {
-    color: var(--bgimage-Green)!important;
-    /* text-shadow: 0px 0px 1px var(--torrent-free-color) !important; */
+div.torrent_info strong.torrent_label.tooltip.tl_notice,
+.torrent_label,
+tl_notice {
+  color: var(--bgimage-Green) !important;
+  /* text-shadow: 0px 0px 1px var(--torrent-free-color) !important; */
 }
 
-tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched, .tl_snatched, .snatched {
-    background-color: var(--bgimage-Green);
-    color: var(--bg-fundo-escuro)!important;
+tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched,
+.tl_snatched,
+.snatched {
+  background-color: var(--bgimage-Green);
+  color: var(--bg-fundo-escuro) !important;
 }
 
 #top10 #wrapper #content .thin .numbering tbody tr.torrent td:nth-child(1) {
-    font-size: 2rem!important;
-    display: flex!important;
-    justify-content: center!important;
-    border: none!important;
-    margin-top: 28%!important;
+  font-size: 2rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  border: none !important;
+  margin-top: 28% !important;
 }
 
 #content > div > div:nth-child(13) {
-    text-align: center!important;
-    padding: 0px!important;
-    display: flex!important;
-    flex-wrap: wrap!important;
-    justify-content: center!important;
+  text-align: center !important;
+  padding: 0px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
 }
 
 .dropdown-menu {
-    background-color: var(--bg-fundo-escuro2)!important;
-    color: var(--bgimage-Foreground)!important;
+  background-color: var(--bg-fundo-escuro2) !important;
+  color: var(--bgimage-Foreground) !important;
 }
 
 .dropdown-menu li a:hover {
-    background-color: var(--bgimage-Green)!important;
-    color: var(--bgimage-Foreground)!important;
+  background-color: var(--bgimage-Green) !important;
+  color: var(--bgimage-Foreground) !important;
 }
 
 #userinfo {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
 }
-.head,.colhead, .colhead_dark {
+.head,
+.colhead,
+.colhead_dark {
   background: none !important;
   background-color: var(--bg-fundo-escuro) !important;
   padding: 15px;
