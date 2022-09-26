@@ -393,3 +393,8 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
 .groupbanner {
   border-radius: 8px!important;
 }
+
+
+#irtopo {
+  background-color: var(--bgimage-Current)!important;
+}
