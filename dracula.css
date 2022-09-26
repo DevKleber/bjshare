@@ -301,6 +301,7 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
   color: var(--bg-fundo-escuro) !important;
 }
 
+.group_info .snatched, 
 .snatched {
   background-color: var(--bgimage-Green)!important;
   color: var(--bg-fundo-escuro) !important;
