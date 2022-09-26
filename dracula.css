@@ -287,6 +287,10 @@ input[type="checkbox"]:checked:after {
   border: 1px solid white;
 }
 
+#userinfo {
+  position: absolute!important;
+}
+
 div.torrent_info strong.torrent_label.tooltip.tl_notice,
 .torrent_label,
 tl_notice {
