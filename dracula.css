@@ -108,9 +108,18 @@ table {
   background-color: rgba(40, 42, 54, 1) !important;
 }
 
+.box2 {
+  padding-bottom: 15px;
+}
+
 #chatForm input[type="text"], #settings_search {
   background-color: var(--bgimage-Background) !important;
   color: var(--bgimage-Foreground)!important;
+}
+
+#settings_search {
+  padding: 14px 10px!important;
+  margin: 10px 0px;
 }
 
 [id*="overlay"],
