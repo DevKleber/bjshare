@@ -184,9 +184,6 @@ link {
   color: var(--bgimage-Pink);
 }
 
-.snatched {
-  
-}
 
 input[type="submit"] {
   background: var(--bgimage-Green) !important;
@@ -213,8 +210,8 @@ input[type="button"] {
   margin-left: 14px!important;
 }
 
-element.style {
-  filter: brightness(0.9);
+input[type="button"]:hover, input[type="submit"]:hover{
+  filter: brightness(0.8);
 }
 
 #searchbars {
