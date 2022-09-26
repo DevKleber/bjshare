@@ -175,7 +175,7 @@ link {
   color: var(--bgimage-Pink);
 }
 
-input[type="text"] {
+input[type="submit"] {
   background: var(--bgimage-Green) !important;
   transition: filter 0.2s;
   border-radius: 4px;
