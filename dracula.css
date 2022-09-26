@@ -110,7 +110,7 @@ table {
 
 #chatForm input[type="text"], #settings_search {
   background-color: var(--bgimage-Background) !important;
-  color: var(--bgimage-Foreground);
+  color: var(--bgimage-Foreground)!important;
 }
 
 [id*="overlay"],
