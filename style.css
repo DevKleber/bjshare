@@ -100,7 +100,7 @@ td, th {
 }
 /*Removendo snatched em lista de snatched pq tenho pouco espaço lá dentro e já é óbvio que lá são snatched*/
 tr.torrent.torrent_row.snatched_torrent.snatched_group td.big_info div.group_info.clear strong.torrent_label.tooltip.snatched{
-  background: none !important;
+  background: none;
   position:relative;
   /*font-size: 0;*/
 }
