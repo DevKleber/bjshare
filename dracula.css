@@ -193,15 +193,15 @@ input[type="submit"] {
 
 input[type="button"] {
   background: var(--bgimage-Green) !important;
-  transition: filter 0.2s;
-  border-radius: 4px;
-  text-align: center;
+  transition: filter 0.2s!important;
+  border-radius: 4px!important;
+  text-align: center!important;
   color: #000 !important;
-  font-weight: bold;
-  /* margin-bottom: 10px; */
-  padding: 10px 18px;
-  border: 0;
-  margin-left: 14px;
+  font-weight: bold!important;
+  /* margin-bottom: 10px!important; */
+  padding: 10px 18px!important;
+  border: 0!important;
+  margin-left: 14px!important;
 }
 
 element.style {
