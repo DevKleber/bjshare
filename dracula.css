@@ -377,3 +377,8 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
   height: 28px;
   background: url(icons/colapse.png) no-repeat center center!important;
 }
+.hide_torrents {
+  width: 28px;
+  height: 28px;
+  background: url(icons/colapse-.png) no-repeat center center;
+}
