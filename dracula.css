@@ -294,12 +294,6 @@ tl_notice {
   /* text-shadow: 0px 0px 1px var(--torrent-free-color) !important; */
 }
 
-tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched,
-.tl_snatched,
-.snatched {
-  background-color: var(--bgimage-Green)!important;
-  color: var(--bg-fundo-escuro) !important;
-}
 
 .group_info .snatched {
   /* background-color: var(--bgimage-Green)!important; */
@@ -307,6 +301,14 @@ tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clea
   color: var(--bgimage-Green) !important;
   /* padding: 0px 5px;
   border-radius: 3px; */
+}
+
+
+tbody tr.torrent.snatched_torrent.snatched_group td.big_info div.group_info.clear div.torrent_info strong.torrent_label.tooltip.tl_snatched,
+.tl_snatched,
+.snatched {
+  background-color: var(--bgimage-Green)!important;
+  color: var(--bg-fundo-escuro) !important;
 }
 
 #top10 #wrapper #content .thin .numbering tbody tr.torrent td:nth-child(1) {
