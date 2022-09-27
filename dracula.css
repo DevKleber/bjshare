@@ -163,6 +163,9 @@ button:hover,[role="button"]:hover,a.button:hover,a.submit:hover {
   filter: brightness(0.8);
 }
 
+[style="color:red"] {
+  color: var(--bgimage-Red)!important;
+}
 
 textarea {
   /* background: rgba(68, 71, 90, 1) !important; */
