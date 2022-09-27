@@ -159,7 +159,7 @@ button,[role="button"],a.button,a.submit {
 }
 
 
-button,[role="button"]:hover,a.button:hover,a.submit:hover {
+button:hover,[role="button"]:hover,a.button:hover,a.submit:hover {
   filter: brightness(0.8);
 }
 
