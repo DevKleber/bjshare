@@ -134,13 +134,7 @@ dl {
   background-color: rgba(68, 71, 90, 1) !important;
 }
 
-button,
-[role="button"],
-a.button,
-a.submit{
-  background: var(--bgimage-Green) !important;
-  color: #000 !important;
-}
+
 
 input,
 select,
@@ -156,6 +150,11 @@ a.TabLink,
   padding: 8px 5px !important;
   border: none !important;
   border-radius: 5px;
+}
+
+button,[role="button"],a.button,a.submit {
+  background: var(--bgimage-Green) !important;
+  color: #000 !important;
 }
 
 textarea {
