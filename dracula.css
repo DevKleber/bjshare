@@ -155,7 +155,14 @@ a.TabLink,
 button,[role="button"],a.button,a.submit {
   background: var(--bgimage-Green) !important;
   color: #000 !important;
+  transition: filter 0.2s!important;
 }
+
+
+button,[role="button"]:hover,a.button:hover,a.submit:hover {
+  filter: brightness(0.8);
+}
+
 
 textarea {
   /* background: rgba(68, 71, 90, 1) !important; */
