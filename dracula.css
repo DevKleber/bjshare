@@ -233,7 +233,9 @@ input[type="button"]:hover, input[type="submit"]:hover{
   box-shadow: none !important;
   border: none !important;
 }
-
+.freetorrent span{
+  color: var(--bgimage-Green!important);
+}
 form tr,
 tr.torrent,
 tr {
