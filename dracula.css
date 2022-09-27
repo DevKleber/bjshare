@@ -233,8 +233,8 @@ input[type="button"]:hover, input[type="submit"]:hover{
   box-shadow: none !important;
   border: none !important;
 }
-.freetorrent span{
-  color: var(--bgimage-Green!important);
+table.layout tbody tr#search_terms.ftr_basic td.ftb_searchstr label span b{
+  color: var(--bgimage-Green)!important;
 }
 form tr,
 tr.torrent,
