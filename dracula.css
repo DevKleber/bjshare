@@ -166,7 +166,7 @@ button:hover,[role="button"]:hover,a.button:hover,a.submit:hover {
 [style="color:red"] {
   color: var(--bgimage-Red)!important;
 }
-[style="color:gree"] {
+[style="color:green"] {
   color: var(--bgimage-Green)!important;
 }
 
