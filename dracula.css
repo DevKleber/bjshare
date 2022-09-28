@@ -166,6 +166,9 @@ button:hover,[role="button"]:hover,a.button:hover,a.submit:hover {
 [style="color:red"] {
   color: var(--bgimage-Red)!important;
 }
+[style="color:gree"] {
+  color: var(--bgimage-Green)!important;
+}
 
 textarea {
   /* background: rgba(68, 71, 90, 1) !important; */
@@ -250,9 +253,7 @@ input[type="button"]:hover, input[type="submit"]:hover{
   box-shadow: none !important;
   border: none !important;
 }
-table.layout tbody tr#search_terms.ftr_basic td.ftb_searchstr label span b{
-  color: var(--bgimage-Green)!important;
-}
+
 
 html body#index div#wrapper div#content div.thin div.main_column div.box div.post_return center {
   font-weight: bold;
