@@ -231,3 +231,8 @@ input[type=radio].toggle+label {
 #disclaimer_container {
   text-shadow: 2px 2px 2px #000;
 }
+
+
+.group_image img {
+  object-fit: cover;
+}
