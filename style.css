@@ -18,7 +18,7 @@
 /* #torrent_table */
 @media only screen and (max-width:1366px) {
   table#torrent_table{
-    width: 70% !important;
+    /* width: 70% !important; */
   }
   #userinfo {
     min-width: 240px;
@@ -27,13 +27,13 @@
 
 @media only screen and (min-width:1440px) {
   table#torrent_table{
-    width: 65% !important;
+    /* width: 65% !important; */
   }
 }
 
 @media only screen and (min-width:1700px) {
   table#torrent_table{
-    width: 55.5% !important;
+    /* width: 55.5% !important; */
   }
 }
 
